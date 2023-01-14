@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.complete>svg{
+  background-color: green;
+  color:rgb(255, 255, 255);
+}
+.complete{
+  background-color: green;
+  border:none;
+}
+.trash>svg{
+  background-color: red;
+  color:rgb(255, 255, 255);
+  padding:1%;
+}
+.trash{
+  background-color: red;
+  border:none;
+}

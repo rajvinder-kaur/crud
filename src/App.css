@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+html{
+  font-family: 'Gochi Hand', cursive;
+  background: linear-gradient();
+  /* background-color: black; */
+  font-size: 2.5rem;
+  overflow-y: scroll;
+  padding-top: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #a39bd2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6{
+  margin-top: 3%;
+  color: #5f6363;
 }
+input,#button{
+  position: relative;
+  height: 20%;
+  font-family: 'Gochi Hand', cursive;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#button{
+margin-left: 0%;
+padding-left: 0%;
+background-color:#fd5fdb;
+border-color: #fd5fdb;
+border-style: solid;
+border-radius: 10px;
+color:#ffffff;
+padding: 6px;
+aspect-ratio: 1;
+width: 7%;
+height: 7%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=text]{
+  margin-left: 5%;
+  width: 23%;
+  padding: 1.5%;
+  font-size: 0.6rem;
+  color:#5f6363;
+  border-bottom:5px dashed pink;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #43444400;
 }
