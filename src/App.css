@@ -4,15 +4,19 @@ html{
   background: linear-gradient();
   /* background-color: black; */
   font-size: 2.5rem;
-  overflow-y: scroll;
+  /* overflow-y: visible; */
   padding-top: 100px;
 }
 body{
   background-color: #a39bd2;
+  /* overflow-y: scroll; */
 }
 h6{
   margin-top: 3%;
   color: #5f6363;
+  font-size: 3vw;
+  grid-column: 2;
+
 }
 input,#button{
   position: relative;
@@ -29,9 +33,15 @@ border-style: solid;
 border-radius: 10px;
 color:#ffffff;
 padding: 6px;
-aspect-ratio: 1;
-width: 7%;
-height: 7%;
+width: 10vw;
+height: 4vw;
+font-size: 2vw;
+grid-column: 3;
+grid-row: 3;
+}
+.btn{
+  width:3vw;
+  margin: 1vw;
 }
 input[type=text]{
   margin-left: 5%;
@@ -44,4 +54,6 @@ input[type=text]{
   border-left: none;
   border-right: none;
   background-color: #43444400;
+  grid-column: 2;
+  grid-row: 3;
 }
