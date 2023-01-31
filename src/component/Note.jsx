@@ -118,9 +118,6 @@ text-align: center;
 margin-bottom: 0%;
 color: #3b4747;
 width: 60vw;
-
-
-
 grid-column:2;
 grid-row:1;
 
