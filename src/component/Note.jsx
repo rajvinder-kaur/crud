@@ -22,7 +22,7 @@ function Note() {
     if (arr) {
       setTodo(arr);
     }
-    if ( arr == null) {
+    if (arr == null) {
       console.log("null error in local storage invoked again!")
       localStorage.clear();
     }
@@ -62,7 +62,7 @@ function Note() {
               todo.map((task) => {
                 return (<li key={task.index}>
                   <p>{task.title}</p>
-                  <button  className='btn' onClick={() => {
+                  <button className='btn' onClick={() => {
                     console.log(task.index)
                     delete todo[task.index];
                     arr = JSON.parse(localStorage.getItem('value'));
